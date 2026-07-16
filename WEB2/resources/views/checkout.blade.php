@@ -9,12 +9,19 @@
 </head>
 <body>
 
-<header>
-    <h2><a href="/">Nike Official Store</a></h2>
+<header style="display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; background: #111;">
+    <h1 style="margin: 0;">
+        <a href="/" style="color: white; text-decoration: none; font-size: 24px; font-weight: bold; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+            Nike Official Store
+        </a>
+    </h1>
 </header>
 
-<div class="container">
-    <h2>Selesaikan Pesanan Anda</h2>
+<div style="max-width: 1000px; margin: 20px auto; padding: 0 20px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+    
+    <h2 style="font-size: 24px; font-weight: bold; margin-bottom: 25px; border-bottom: 2px solid #eee; padding-bottom: 10px;">
+        Selesaikan Pesanan Anda
+    </h2>
     
     <div class="checkout-layout">
         <div class="form-col">
