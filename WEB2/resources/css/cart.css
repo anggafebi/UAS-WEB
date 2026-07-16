@@ -1,0 +1,98 @@
+/* File: resources/css/cart.css */
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    background: white; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05); 
+}
+
+th, td { 
+    padding: 15px; 
+    text-align: left; 
+    border-bottom: 1px solid #eee; 
+}
+
+th { 
+    background-color: #222; 
+    color: white; 
+}
+
+.product-img { 
+    width: 80px; 
+    height: auto; 
+    border-radius: 4px; 
+}
+
+.total-container { 
+    background: white; 
+    padding: 20px; 
+    margin-top: 20px; 
+    border-radius: 8px; 
+    text-align: right; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05); 
+}
+
+.total-price { 
+    font-size: 1.5em; 
+    font-weight: bold; 
+    color: #111; 
+}
+
+.btn { 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 20px; 
+    font-weight: bold; 
+    display: inline-block; 
+    cursor: pointer; 
+    border: none; 
+}
+
+.btn-checkout { 
+    background-color: #d82b27; 
+    color: white; 
+    margin-top: 10px; 
+    font-size: 1.1em; 
+}
+
+.btn-back { 
+    background-color: #e0e0e0; 
+    color: #333; 
+    margin-right: 10px; 
+}
+
+.btn-delete { 
+    background-color: #ff4d4d; 
+    color: white; 
+    padding: 5px 10px; 
+    border-radius: 4px; 
+    font-size: 0.9em; 
+}
+
+.alert { 
+    padding: 15px; 
+    background-color: #d4edda; 
+    color: #155724; 
+    border-radius: 4px; 
+    margin-bottom: 20px; 
+}
+
+/* Class baru untuk menggantikan inline CSS pada keranjang kosong */
+.empty-cart { 
+    background: white; 
+    padding: 40px; 
+    text-align: center; 
+    border-radius: 8px; 
+}
+
+.empty-cart p { 
+    font-size: 1.2em; 
+    color: #666; 
+}
+
+.empty-cart .btn-back { 
+    margin-top: 15px; 
+}

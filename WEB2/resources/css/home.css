@@ -1,0 +1,124 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    color: #111;
+}
+
+/* --- HEADER --- */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #111;
+    color: white;
+}
+header h1 {
+    margin: 0;
+}
+header h1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.btn-header {
+    display: inline-block;
+    padding: 10px 20px; /* Memperbesar area dalam tombol */
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+.btn-header:hover {
+    opacity: 0.8;
+}
+
+/* --- KONTEN UTAMA --- */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+.page-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* --- FILTER KATEGORI --- */
+.filter-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.btn-filter {
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 20px;
+    border: 1px solid #111;
+    text-decoration: none;
+    font-size: 14px;
+}
+.btn-filter.active {
+    background: #111;
+    color: white;
+}
+.btn-filter.inactive {
+    background: white;
+    color: #111;
+}
+
+/* --- GRID 2 KOLOM VERTIKAL --- */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Mengunci tata letak 2 vertikal */
+    gap: 20px;
+}
+
+/* --- KARTU PRODUK (Gaya Original) --- */
+.card {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+    display: flex;
+    flex-direction: column;
+}
+.card img {
+    width: 100%;
+    height: 220px;
+    border-radius: 8px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+.card h3 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+.price {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 0 15px 0;
+}
+.btn-action {
+    display: block;
+    text-align: center;
+    background: #111;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: auto; /* Mendorong tombol ke posisi paling bawah */
+}

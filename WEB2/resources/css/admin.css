@@ -1,0 +1,115 @@
+/* File: resources/css/admin.css */
+
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 30px; 
+    background-color: #f4f4f4; 
+}
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+    background: white; 
+}
+
+th, td { 
+    padding: 12px; 
+    border: 1px solid #ddd; 
+    text-align: left; 
+}
+
+th { 
+    background-color: #111; 
+    color: white; 
+}
+
+.btn { 
+    padding: 8px 12px; 
+    text-decoration: none; 
+    color: white; 
+    border-radius: 4px; 
+    display: inline-block; 
+    border: none; 
+    cursor: pointer; 
+}
+
+.btn-add { 
+    background-color: #28a745; 
+    margin-bottom: 10px; 
+}
+
+.btn-edit { 
+    background-color: #ffc107; 
+    color: black; 
+}
+
+.btn-delete { 
+    background-color: #dc3545; 
+}
+
+.alert { 
+    padding: 10px; 
+    background-color: #d4edda; 
+    color: #155724; 
+    margin-bottom: 15px; 
+    border-radius: 4px; 
+}
+
+/* Styling Formulir (Create & Edit) */
+.form-container { 
+    background: white; 
+    padding: 20px; 
+    max-width: 500px; 
+    margin: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+.form-group { 
+    margin-bottom: 15px; 
+}
+
+.form-group label { 
+    display: block; 
+    margin-bottom: 5px; 
+    font-weight: bold; 
+}
+
+.form-group input, 
+.form-group textarea { 
+    width: 100%; 
+    padding: 8px; 
+    box-sizing: border-box; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+}
+
+.btn-submit { 
+    background-color: #28a745; 
+    color: white; 
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    width: 100%; 
+}
+
+.btn-submit:hover {
+    background-color: #218838;
+}
+
+/* Tombol khusus untuk halaman Edit */
+.btn-update { 
+    background-color: #007bff; 
+    color: white; 
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    width: 100%; 
+}
+
+.btn-update:hover {
+    background-color: #0056b3;
+}
